@@ -22,9 +22,20 @@ body header {
   margin-top: 15px;
   /*nav*/
 }
+body header .logo-container {
+  display: flex;
+  align-items: center;
+}
+body header .logo-container .titulo-page {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
 body header .limage {
   width: 130px;
   height: auto;
+  margin-right: 10px;
 }
 body header nav {
   display: flex;

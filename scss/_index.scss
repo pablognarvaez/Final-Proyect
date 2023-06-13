@@ -18,10 +18,23 @@ body {
     header {
         margin-top: 15px;
 
+        .logo-container {
+            display: flex;
+            align-items: center;
+
+            .titulo-page {
+                margin: 0;
+                font-size: 24px;
+                font-weight: bold;
+                color:$color-fondo-2;
+            }
+        }
+
         .limage {
             width: 130px;
             height: auto;
-        }
+            margin-right: 10px;
+}
 
         /*nav*/
         nav {
